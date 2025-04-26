@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>USER REGISTRATION FORM</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h3>Registration Form</h3>
+
+  <fieldset>
+    <legend><b>Log In</b></legend>
+    <div class="container">
+      <form action="form.php" method="post">
+        <label for="username"><b>Username:</b></label>
+        <input type="text" id="username" name="username" placeholder="Enter Your Username" required>
+
+        <label for="password"><b>Password:</b></label>
+        <input type="password" id="password" name="password" placeholder="Enter Your Password" required minlength="8" maxlength="10">
+
+        <label for="psw-repeat"><b>Repeat Password:</b></label>
+        <input type="password" id="psw-repeat" name="psw-repeat" placeholder="Repeat Password" required>
+
+        <p>By registering an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+        <button type="submit" name="submit" class="registerbtn">Register</button>
+      </form>
+    </div>
+  </fieldset>
+
+</body>
+</html>
