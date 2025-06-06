@@ -6,10 +6,12 @@ if (isset($_POST['submit'])) {
 }
 
 
-if($ps != $rps) {
+    if($ps != $rps) {
     echo '<p style="color:red; text-align:center; font-weight:bold;">Passwords do not match!</p>';
     exit;
-} else {
+} 
+
+    else {
     echo '<h2 style="color:#28a745;text-align:center;display:flex; justify-content:center; align-items:center; height:100vh; font-weight:bold;">Form Submitted Successfully!</h2>';
 }
 
